@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>รายการอาหาร</title>
+<!-- โหลดฟอนต์ Kanit -->
+<link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet" />
+<style>
+  body {
+    font-family: 'Kanit', sans-serif;
+    margin: 20px;
+    background: #f9f9f9;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+   nav {
+    padding: 1rem;
+    background-color:#2c7a7b;
+  }
+
+  .food-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .food-item {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: transform 0.2s ease;
+  }
+  
+  .food-item:hover {
+    transform: translateY(-5px);
+  }
+
+  .food-image {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+  }
+
+  .food-info {
+    padding: 15px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .food-category {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+  }
+
+  .food-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .food-price {
+    font-size: 1.1rem;
+    color: #2c7a7b;
+    font-weight: bold;
+  }
+</style>
+</head>
+<body>
+
+    
+    <h1>ร้านอาหารสาวหวาน</h1>
+    <nav>
+      <a href="cuisine.html">อาหารคาว</a>
+      <a href="dessert.html">ขนมหวาน</a>
+      <a href="drink.html">เครื่องดื่ม</a>
+      <a href="appetizer.html">อาหารทานเล่น</a>
+      <a href="fruit.html">ผลไม้</a>
+    </nav>
+</header>
+
+
+<h1>ผลไม้</h1>
+
+<div class="food-list">
+  <div class="food-item">
+    <img class="food-image" src="https://www.miwfood.com/wp-content/uploads/2014/09/grapes.jpg" alt="องุ่น">
+    <div class="food-info">
+      <div class="food-category">องุ่น</div>
+      <div class="food-name">องุ่น</div>
+      <div class="food-price">ราคา 40 บาท</div>
+    </div>
+  </div>
+
+  <div class="food-item">
+    <img class="food-image" src="https://hdmall.co.th/blog/wp-content/uploads/2024/07/pineapple-properties-and-benefits.jpg" alt="สับปะรด">
+    <div class="food-info">
+      <div class="food-category">สับปะรด</div>
+      <div class="food-name">สับปะรด</div>
+      <div class="food-price">ราคา 30 บาท</div>
+    </div>
+  </div>
+
+  <div class="food-item">
+    <img class="food-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmVMjgoNXE5nFxqw5Ltc5icz0-mskTewsZIw&s" alt="ชมพู่">
+    <div class="food-info">
+      <div class="food-category">ชมพู่</div>
+      <div class="food-name">ชมพู่</div>
+      <div class="food-price">ราคา 30 บาท</div>
+    </div>
+  </div>
+
+  <div class="food-item">
+    <img class="food-image" src="https://static.thairath.co.th/media/dFQROr7oWzulq5Fa4u0hKx275doyyZlbPwrAvWFrn9efT6LSOpUYHDMCV468rT1cVvD.webp" alt="มังคุด">
+    <div class="food-info">
+      <div class="food-category">มังคุด</div>
+      <div class="food-name">มังคุด</div>
+      <div class="food-price">ราคา 30 บาท</div>
+    </div>
+  </div>
+</div><br><br>
+
+<div class="food-list">
+  <div class="food-item">
+    <img class="food-image" src="https://static.thairath.co.th/media/dFQROr7oWzulq5FZXUxnKrZUaeweQAtrz6GjZUtPSnJtmcTj5mIOFlxIo1QyJ949cCM.jpg" alt="ลำไย">
+    <div class="food-info">
+      <div class="food-category">ลำไย</div>
+      <div class="food-name">ลำไย</div>
+      <div class="food-price">ราคา 35 บาท</div>
+    </div>
+  </div>
+
+  <div class="food-item">
+    <img class="food-image" src="https://medthai.com/wp-content/uploads/2013/07/Sapodilla-3.jpg" alt="ละมุด">
+    <div class="food-info">
+      <div class="food-category">ละมุด</div>
+      <div class="food-name">ละมุด</div>
+      <div class="food-price">ราคา 35 บาท</div>
+    </div>
+  </div>
+
+  <div class="food-item">
+    <img class="food-image" src="https://hdmall.co.th/blog/wp-content/uploads/2024/07/watermelon-and-its-benefits-scaled.jpg" alt="แตงโม">
+    <div class="food-info">
+      <div class="food-category">แตงโม</div>
+      <div class="food-name">แตงโม</div>
+      <div class="food-price">ราคา 30 บาท</div>
+    </div>
+  </div>
+
+  <div class="food-item">
+    <img class="food-image" src="https://www.sgethai.com/wp-content/uploads/2021/03/240216-content-karonda-banner.webp" alt="มะม่วงหาวมะนาวโห่">
+    <div class="food-info">
+      <div class="food-category">มะม่วงหาวมะนาวโห่</div>
+      <div class="food-name">มะม่วงหาวมะนาวโห่</div>
+      <div class="food-price">ราคา 40 บาท</div>
+    </div>
+  </div>
+</div><br><br>
+
+<div class="food-list">
+  <div class="food-item">
+    <img class="food-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2QoAlPJqN1hk0UIQQsiPUxO7q4_5Gm8_HbQ&s" alt="มะม่วง">
+    <div class="food-info">
+      <div class="food-category">มะม่วง</div>
+      <div class="food-name">มะม่วง</div>
+      <div class="food-price">ราคา 30 บาท</div>
+    </div>
+  </div>
+
+  <div class="food-item">
+    <img class="food-image" src="https://medthai.com/wp-content/uploads/2013/07/Orange-1.jpg" alt="ส้ม">
+    <div class="food-info">
+      <div class="food-category">ส้ม</div>
+      <div class="food-name">ส้ม</div>
+      <div class="food-price">ราคา 30 บาท</div>
+    </div>
+  </div>
+
+  <div class="food-item">
+    <img class="food-image" src="https://www.disthai.com/images/content/original-1634715957747.jpg" alt="ฝรั่ง">
+    <div class="food-info">
+      <div class="food-category">ฝรั่ง</div>
+      <div class="food-name">ฝรั่ง</div>
+      <div class="food-price">ราคา 40 บาท</div>
+    </div>
+  </div>
+
+  <div class="food-item">
+    <img class="food-image" src="https://www.disthai.com/images/content/original-1717815873465.jpg" alt="ลองกอง">
+    <div class="food-info">
+      <div class="food-category">ลองกอง</div>
+      <div class="food-name">ลองกอง</div>
+      <div class="food-price">ราคา 40 บาท</div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

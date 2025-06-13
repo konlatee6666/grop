@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>รายการอาหาร</title>
+<!-- โหลดฟอนต์ Kanit -->
+<link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet" />
+<style>
+  body {
+    font-family: 'Kanit', sans-serif;
+    margin: 20px;
+    background: #f9f9f9;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+   nav {
+    padding: 1rem;
+    background-color:#2c7a7b;
+  }
+
+  .food-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .food-item {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: transform 0.2s ease;
+  }
+  
+  .food-item:hover {
+    transform: translateY(-5px);
+  }
+
+  .food-image {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+  }
+
+  .food-info {
+    padding: 15px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .food-category {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+  }
+
+  .food-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .food-price {
+    font-size: 1.1rem;
+    color: #2c7a7b;
+    font-weight: bold;
+  }
+</style>
+</head>
+<body>
+
+     <h1>ร้านอาหารสาวหวาน</h1>
+    <nav>
+      <a href="cuisine.html">อาหารคาว</a>
+      <a href="dessert.html">ขนมหวาน</a>
+      <a href="drink.html">เครื่องดื่ม</a>
+      <a href="appetizer.html">อาหารทานเล่น</a>
+      <a href="fruit.html">ผลไม้</a>
+    </nav>
+  </header>
+
+
+<h1>เครื่องดื่ม</h1>
+
+<div class="food-list">
+  <div class="food-item">
+    <img class="food-image" src="d:\thanat\u1_23.jpg" alt="=ชาเขียวนมสดเย็น">
+    <div class="food-info">
+      <div class="food-category">ชาเขียวนมสดเย็น</div>
+      <div class="food-name">ชาเขียวนมสดเย็น</div>
+      <div class="food-price">ราคา 45 บาท</div>
+    </div>
+  </div>
+
+  <div class="food-item">
+    <img class="food-image" src="d:\thanat\45..webp" alt="นมชมพู">
+    <div class="food-info">
+      <div class="food-category">นมชมพู</div>
+      <div class="food-name">นมชมพู</div>
+      <div class="food-price">ราคา 45 บาท</div>
+    </div>
+  </div>
+
+  <div class="food-item">
+    <img class="food-image" src="https://www.siammandarinahotel.com/wp-content/webp-express/webp-images/uploads/2025/03/plum-juice-600x400.jpg.webp" alt="น้ำลูกพลัม">
+    <div class="food-info">
+      <div class="food-category">น้ำลูกพลัม</div>
+      <div class="food-name">น้ำลูกพลัม</div>
+      <div class="food-price">ราคา 45 บาท</div>
+    </div>
+  </div>
+
+  <div class="food-item">
+    <img class="food-image" src="https://www.siammandarinahotel.com/wp-content/webp-express/webp-images/uploads/2025/03/lime-juice-600x426.jpg.webp" alt="น้ำมะนาว">
+    <div class="food-info">
+      <div class="food-category">น้ำมะนาว</div>
+      <div class="food-name">น้ำมะนาว</div>
+      <div class="food-price">ราคา 35 บาท</div>
+    </div>
+  </div>
+</div><br><br>
+
+<div class="food-list">
+  <div class="food-item">
+    <img class="food-image" src="https://www.siammandarinahotel.com/wp-content/webp-express/webp-images/uploads/2025/03/coconut-juice-600x400.jpg.webp" alt="น้ำมะพร้าว">
+    <div class="food-info">
+      <div class="food-category">น้ำมะพร้าว</div>
+      <div class="food-name">น้ำมะพร้าว</div>
+      <div class="food-price">ราคา 45 บาท</div>
+    </div>
+  </div>
+
+  <div class="food-item">
+    <img class="food-image" src="https://www.siammandarinahotel.com/wp-content/webp-express/webp-images/uploads/2025/03/Rosella-Juice-600x400.jpg.webp" alt=" น้ำกระเจี๊ยบ">
+    <div class="food-info">
+      <div class="food-category">น้ำกระเจี๊ยบ</div>
+      <div class="food-name"> น้ำกระเจี๊ยบ</div>
+      <div class="food-price">ราคา 35 บาท</div>
+    </div>
+  </div>
+
+  <div class="food-item">
+    <img class="food-image" src="https://www.siammandarinahotel.com/wp-content/webp-express/webp-images/uploads/2025/03/Passion-Fruit-Juice-600x400.jpg.webp" alt="น้ำเสาวรส">
+    <div class="food-info">
+      <div class="food-category">น้ำเสาวรส</div>
+      <div class="food-name">น้ำเสาวรส</div>
+      <div class="food-price">ราคา 45 บาท</div>
+    </div>
+  </div>
+
+  <div class="food-item">
+    <img class="food-image" src="https://www.siammandarinahotel.com/wp-content/webp-express/webp-images/uploads/2025/03/Beetroot-Juice-600x450.jpg.webp" alt="น้ำบีทรูท">
+    <div class="food-info">
+      <div class="food-category">น้ำบีทรูท</div>
+      <div class="food-name">น้ำบีทรูท</div>
+      <div class="food-price">ราคา 45 บาท</div>
+    </div>
+  </div>
+</div><br><br>
+
+<div class="food-list">
+  <div class="food-item">
+    <img class="food-image" src="https://www.siammandarinahotel.com/wp-content/webp-express/webp-images/uploads/2025/03/Carrot-Juice-600x400.jpg.webp" alt="น้ำแครอท">
+    <div class="food-info">
+      <div class="food-category">น้ำแครอท</div>
+      <div class="food-name">น้ำแครอท</div>
+      <div class="food-price">ราคา 45 บาท</div>
+    </div>
+  </div>
+
+  <div class="food-item">
+    <img class="food-image" src="https://www.siammandarinahotel.com/wp-content/webp-express/webp-images/uploads/2025/03/Kale-Juice-400x600.jpg.webp" alt=" น้ำผักเคล">
+    <div class="food-info">
+      <div class="food-category">น้ำผักเคล</div>
+      <div class="food-name"> น้ำผักเคล</div>
+      <div class="food-price">ราคา 45 บาท</div>
+    </div>
+  </div>
+
+  <div class="food-item">
+    <img class="food-image" src="https://www.siammandarinahotel.com/wp-content/webp-express/webp-images/uploads/2025/03/Pine-Apple-Juice-600x400.jpg.webp" alt="น้ำสัปปะรด">
+    <div class="food-info">
+      <div class="food-category">น้ำสัปปะรด</div>
+      <div class="food-name">น้ำสัปปะรด</div>
+      <div class="food-price">ราคา 45 บาท</div>
+    </div>
+  </div>
+
+  <div class="food-item">
+    <img class="food-image" src="https://www.siammandarinahotel.com/wp-content/webp-express/webp-images/uploads/2025/03/Almond-Milk-600x400.jpg.webp" alt="นมอัลมอนด์">
+    <div class="food-info">
+      <div class="food-category">นมอัลมอนด์</div>
+      <div class="food-name">นมอัลมอนด์</div>
+      <div class="food-price">ราคา 45 บาท</div>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
