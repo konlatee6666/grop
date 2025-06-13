@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>เมนูของคาว | ไข่หวานพาแซ่บ</title>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Kanit', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fffaf5;
+    }
+
+    header {
+      background-color: #ff7043;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 2rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      text-align: center;
+      margin: 30px 0 10px;
+      color: #333;
+    }
+
+    .food-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .food-item {
+      background: white;
+      width: 200px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.2s ease;
+    }
+
+    .food-item:hover {
+      transform: translateY(-5px);
+    }
+
+    .food-image {
+      width: 100%;
+      height: 140px;
+      object-fit: cover;
+    }
+
+    .food-info {
+      padding: 15px;
+    }
+
+    .food-name {
+      font-size: 1.1rem;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .food-price {
+      font-size: 1rem;
+      color: #d84315;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #ffe0b2;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>เมนูอาหาร - ไข่หวานพาแซ่บ</title>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Kanit', sans-serif;
+      background-color: #fefefe;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      background-color: #ff6b6b;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1.1rem;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    h1 {
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    .menu {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .item {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      width: 220px;
+      text-align: center;
+      padding: 15px;
+    }
+
+    .item img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .item-name {
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    .item-price {
+      color: #2c7a7b;
+      font-weight: bold;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index1.html">หน้าแรก</a>
+    <a href="drink-menu.html">เครื่องดื่ม</a>
+    <a href="dessert-menu.html">ของหวาน</a>
+    <a href="savory-menu.html">ของคาว</a>
+    <a href="snack-menu.html">ของกินเล่น</a>
+    <a href="alcohol-menu.html">แอลกอฮอล์</a>
+    <a href="herbal-menu.html">สมุนไพร</a>
+  </nav>
+<header>เมนูของคาว - ไข่หวานพาแซ่บ</header>
+
+<h2>ของคาวแซ่บซี๊ด อร่อยทุกจาน</h2>
+
+<div class="food-list">
+  <!-- เมนู 1 -->
+  <div class="food-item">
+    <img class="food-image" src="25.jpg" alt="ส้มตำไทย">
+    <div class="food-info">
+      <div class="food-name">ส้มตำไทย</div>
+      <div class="food-price">ราคา 45 บาท</div>
+    </div>
+  </div>
+
+  <!-- เมนู 2 -->
+  <div class="food-item">
+    <img class="food-image" src="26.jpg" alt="ไก่ทอดสมุนไพร">
+    <div class="food-info">
+      <div class="food-name">ไก่ทอดสมุนไพร</div>
+      <div class="food-price">ราคา 65 บาท</div>
+    </div>
+  </div>
+
+  <!-- เมนู 3 -->
+  <div class="food-item">
+    <img class="food-image" src="27.jpg" alt="ลาบหมู">
+    <div class="food-info">
+      <div class="food-name">ลาบหมู</div>
+      <div class="food-price">ราคา 55 บาท</div>
+    </div>
+  </div>
+
+  <!-- เมนู 4 -->
+  <div class="food-item">
+    <img class="food-image" src="28.jpg" alt="หมูย่างจิ้มแจ่ว">
+    <div class="food-info">
+      <div class="food-name">หมูย่างจิ้มแจ่ว</div>
+      <div class="food-price">ราคา 70 บาท</div>
+    </div>
+  </div>
+
+  <!-- เมนู 5 -->
+  <div class="food-item">
+    <img class="food-image" src="29.jpg" alt="ข้าวผัดหมู">
+    <div class="food-info">
+      <div class="food-name">ข้าวผัดหมู</div>
+      <div class="food-price">ราคา 50 บาท</div>
+    </div>
+  </div>
+
+  <!-- เมนู 6 -->
+  <div class="food-item">
+    <img class="food-image" src="30.jpg" alt="ผัดไทยกุ้งสด">
+    <div class="food-info">
+      <div class="food-name">ผัดไทยกุ้งสด</div>
+      <div class="food-price">ราคา 60 บาท</div>
+    </div>
+  </div>
+
+  <!-- เมนู 7 -->
+  <div class="food-item">
+    <img class="food-image" src="31.jpg" alt="ก๋วยเตี๋ยวต้มยำ">
+    <div class="food-info">
+      <div class="food-name">ก๋วยเตี๋ยวต้มยำ</div>
+      <div class="food-price">ราคา 50 บาท</div>
+    </div>
+  </div>
+
+  <!-- เมนู 8 -->
+  <div class="food-item">
+    <img class="food-image" src="32.jpg" alt="ซี่โครงหมูอบ">
+    <div class="food-info">
+      <div class="food-name">ซี่โครงหมูอบน้ำผึ้ง</div>
+      <div class="food-price">ราคา 85 บาท</div>
+    </div>
+  </div>
+
+  <!-- เมนู 9 -->
+  <div class="food-item">
+    <img class="food-image" src="33.jpg" alt="ปลานึ่งมะนาว">
+    <div class="food-info">
+      <div class="food-name">ปลานึ่งมะนาว</div>
+      <div class="food-price">ราคา 120 บาท</div>
+    </div>
+  </div>
+
+  <!-- เมนู 10 -->
+  <div class="food-item">
+    <img class="food-image" src="34.jpg" alt="ต้มยำกุ้ง">
+    <div class="food-info">
+      <div class="food-name">ต้มยำกุ้ง</div>
+      <div class="food-price">ราคา 90 บาท</div>
+    </div>
+  </div>
+
+  <!-- เมนู 11 -->
+  <div class="food-item">
+    <img class="food-image" src="35.jpg" alt="ข้าวกะเพราไก่">
+    <div class="food-info">
+      <div class="food-name">ข้าวกะเพราไก่</div>
+      <div class="food-price">ราคา 50 บาท</div>
+    </div>
+  </div>
+
+  <!-- เมนู 12 -->
+  <div class="food-item">
+    <img class="food-image" src="36.jpg" alt="แกงเขียวหวานไก่">
+    <div class="food-info">
+      <div class="food-name">แกงเขียวหวานไก่</div>
+      <div class="food-price">ราคา 75 บาท</div>
+    </div>
+  </div>
+</div>
+
+<footer>© 2025 ไข่หวานพาแซ่บ | แซ่บถึงใจทุกเมนูของคาว</footer>
+
+</body>
+</html>
